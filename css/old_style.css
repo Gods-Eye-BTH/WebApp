@@ -1,0 +1,179 @@
+* {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.nav-wrap {
+    position: fixed;
+    bottom: 0;
+    overflow: hidden;
+    width: 100%;
+    background: #57606f;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-wrap .link {
+    width: 25%;
+    padding: 0.8em 0;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.active {
+    background: #2f3542;
+}
+
+.viewHeader {
+    text-align: center;
+    border-bottom: 1px solid rgba(164, 176, 190, 0.8);
+    margin: 0;
+    padding: 0;
+}
+
+.homeHeader {
+    text-align: center;
+    margin: 0;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+}
+
+.homeText {
+    padding: 2rem 1rem 1rem 1rem;
+}
+
+#videoElement {
+    width: 100%;
+    margin: 0;
+}
+
+.boxContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.boxWrap {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.databox {
+    width: 100%;
+    margin: 3px;
+    display: flex;
+    flex-direction: column;
+    padding: 1em 0;
+    align-items: center;
+    background: #57606f;
+    color: #fff;
+}
+
+#robotsBox {
+    margin-left: 6px;
+}
+
+#barriersBox {
+    margin-right: 6px;
+}
+
+.databox h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 2em;
+    font-weight: normal;
+}
+
+.dropdownContainer {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.dropdownContainer select{
+    margin: 3px auto;
+    width: 96.5%;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    text-align: center;
+    border: 1px solid #747d8c;
+    border-radius: 3px;
+    background: #fff;
+    color: #000;
+}
+
+.dropdownContainer select option{
+    text-align: center;
+}
+
+.robot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 3vh;
+    padding-right: 3vh;
+    border-bottom: 1px solid rgba(164, 176, 190, 0.8);
+}
+
+.robot:hover, .robot:focus {
+    background: rgba(164, 176, 190, 0.8);
+}
+
+.robotHeader {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(164, 176, 190, 0.8);
+}
+
+.robotName {
+    width: fill;
+    text-align: center;
+    flex: 1;
+}
+
+.robotBackButton {
+    float: left;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.robotInformation {
+    padding: 0 1rem;
+}
+
+.error {
+    margin: 8px;
+    padding: 4px;
+    text-align: center;
+    font-family: monospace;
+    background: #f8d7da;
+    color:#721c24;
+    border-radius: 5px;
+    border-left: solid 4px #721c24;
+}
+
+.barrier {
+    margin: 1rem 0.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+    border: 1px solid rgba(164, 176, 190, 0.5);
+    box-shadow: 1px 1px 5px rgba(134, 142, 152, 0.5);
+}

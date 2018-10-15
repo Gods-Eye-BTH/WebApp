@@ -1,0 +1,56 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.browser {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid;
+    padding-right: 1rem;
+    background: #2f3542;
+    font-weight: 300;
+}
+
+.buttons ul {
+    margin: 0;
+    padding: 0;
+    display:flex;
+    list-style:none;
+}
+
+.nav-bt {
+    font-size: 1.2rem;
+    padding: 0.8rem;
+    margin: 0.5rem;
+    border: 1px solid;
+    text-decoration: none;
+    color: #fff;
+}
+
+.active {
+    color: #2f3542;
+    background: #fff;
+}
+
+.homeBanner {
+    padding: 1rem;
+    height: 90px;
+}
+
+.box {
+    margin: 1rem;
+    padding: 1rem;
+    border: solid 1px rgb(222, 222, 222,1);
+    box-shadow: 0 0 5px #dedede;
+}
+
+.has-stream {
+    /* TODO: fix some flexbox */
+}
