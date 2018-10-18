@@ -1,5 +1,5 @@
 <!-- used html for logo object instead since you can't ajust size of a markdown img -->
-<img src="/project-resources/img/banner.png" alt="God's Eye Logo" height="150px" /><br><br>
+<img src="/img/banner.png" alt="God's Eye Logo" height="150px" /><br><br>
 
 Web platform for project God's Eye. This repo has the all the components
 for the web interface and instructions for how to set it up.
