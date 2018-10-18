@@ -8,12 +8,17 @@
             {
                 id: 0,
                 name: "Camera 1: Charlie Chaplin",
-                url: 'http://cluster.dystopi.nu/stream/eye.flv'
+                url: 'https://cluster.dystopi.nu/stream/eye.flv'
             },
             {
                 id: 1,
                 name: "Camera 2: True Survivor Music Video",
-                url: 'http://cluster.dystopi.nu/stream/truesurvivor.flv'
+                url: 'https://cluster.dystopi.nu/stream/truesurvivor.flv'
+            },
+            {
+                id: 2,
+                name: "Camera 3: Re-Send",
+                url: 'https://cluster.dystopi.nu/stream/rbt.flv'
             }
         ]
     };
