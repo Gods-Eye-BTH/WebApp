@@ -73,6 +73,13 @@
             appState.selectedStreamUrl = stream.url;
             createVideo();
         });
+
+        //add change dropdown event trigger
+        selectMenu.addEventListener("change", (e) => {
+            console.log(selectMenu.value);
+            selectMenu.options[selectMenu.value].click();
+        });
+
         selectMenu.appendChild(feedOption);
     });
 
