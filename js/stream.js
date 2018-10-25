@@ -33,7 +33,8 @@
         let videoWrap = document.getElementById("video-wrap");
 
         //reset the player element
-        videoWrap.innerHTML = '<video autoplay poster="img/loadingStream.png" id="videoElement"></video>';
+
+        videoWrap.innerHTML = '<video class="video" controls autoplay poster="img/loadingStream.png" id="videoElement"></video>';
 
         //attach flvjs to the video object
         if (flvjs.isSupported()) {
