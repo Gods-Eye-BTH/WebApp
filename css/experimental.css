@@ -1,3 +1,17 @@
+/* .multibox {
+    height: 100%;
+    border: 1px solid red;
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.data-super-box {
+    border: 1px solid limegreen;
+    display: flex;
+    overflow-y: scroll;
+    flex-direction: column;
+} */
 html, body {
     margin: 0;
     padding: 0;
@@ -44,37 +58,12 @@ html, body {
     height: 90px;
 }
 
-.box {
-    margin: 1rem;
-    padding: 1rem;
-    border: solid 1px rgb(222, 222, 222,1);
-    box-shadow: 0 0 5px #dedede;
-}
-
-.has-stream {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.video-wrap {
-    display: flex;
-    justify-content: center;
-}
-
 .video {
     height: 450px;
 }
 
 .select {
     margin: 1rem auto;
-}
-
-.robots-wrap {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    padding: 1rem;
 }
 
 .aRobot {
@@ -97,4 +86,21 @@ html, body {
     font-size: 0.7rem;
     vertical-align: super;
     color: red;
+}
+
+.multibox {
+    display: flex;
+}
+
+.data-super-box {
+    flex-grow: 1;
+}
+
+.livebox {
+    align-self: center;
+    text-align: center;
+}
+
+.sidebox {
+    /* overflow-y: scroll; */
 }
