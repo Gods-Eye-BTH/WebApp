@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
     <head>
         <meta charset="UTF-8">
@@ -6,7 +7,8 @@
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
         <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,400" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="css/normalize.min.css">
-        <link rel="stylesheet" type="text/css" href="css/browser.css">
+        <!-- <link rel="stylesheet" type="text/css" href="css/browser.css"> -->
+        <link rel="stylesheet" type="text/css" href="css/experimental.css">
         <link rel="stylesheet" href="css/font/material-icons.css">
         <title>God's Eye</title>
     </head>
@@ -22,14 +24,28 @@
                         <li><a href="home.html" class="nav-bt">Home</a></li>
                         <li><a href="stream.html" class="nav-bt">Stream</a></li>
                         <li><a href="robots.html" class="nav-bt">Robots</a></li>
-                        <li><a href="barriers.html" class="nav-bt active">Barriers</a></li>
-                        <li><a href="experimental.html" class="nav-bt">multi-view <sub class="notice">(BETA)</sub></a></li>
+                        <li><a href="barriers.html" class="nav-bt">Barriers</a></li>
+                        <li><a href="experimental.html" class="nav-bt active">multi-view <sub class="notice">(BETA)</sub></a></li>
                     </ul>
                 </div>
             </nav>
-            <!-- Barriers are displayed here -->
-            <div class="robots-wrap" id="barriers"></div>
+            <div class="multibox">
+                <div class="data-super-box sidebox">
+                    <div class="robots" id="robots">
+                    </div>
+                </div>
+                    <div class="data-super-box livebox">
+                        <select class="select" id="streamSelect" name="SelectStream"></select>
+                        <div class="video-multi-wrap" id="video-wrap"></div>
+                    </div>
+                    <div class="data-super-box sidebox">
+                        <div class="robots" id="barriers"></div>
+                    </div>
+            </div>
         </div>
+        <script type="text/javascript" src="js/flv.min.js"></script>
+        <script type="text/javascript" src="js/stream.js"></script>
+        <script type="text/javascript" src="js/robots.js"></script>
         <script type="text/javascript" src="js/barriers.js"></script>
     </body>
 </html>

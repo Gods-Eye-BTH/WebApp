@@ -1,9 +1,13 @@
 html, body {
     margin: 0;
     padding: 0;
+    height: 100%;
 }
 
 .browser {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
     font-family: 'Fira Sans', sans-serif;
     font-weight: 400;
 }
@@ -11,8 +15,8 @@ html, body {
 .navbar {
     display: flex;
     justify-content: space-between;
+    flex-grow: 0;
     align-items: center;
-    border-bottom: 1px solid;
     padding-right: 1rem;
     background: #2f3542;
     font-weight: 300;
@@ -44,37 +48,12 @@ html, body {
     height: 90px;
 }
 
-.box {
-    margin: 1rem;
-    padding: 1rem;
-    border: solid 1px rgb(222, 222, 222,1);
-    box-shadow: 0 0 5px #dedede;
-}
-
-.has-stream {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.video-wrap {
-    display: flex;
-    justify-content: center;
-}
-
 .video {
     height: 450px;
 }
 
 .select {
     margin: 1rem auto;
-}
-
-.robots-wrap {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    padding: 1rem;
 }
 
 .aRobot {
@@ -97,4 +76,22 @@ html, body {
     font-size: 0.7rem;
     vertical-align: super;
     color: red;
+}
+
+.multibox {
+    display: flex;
+    max-height: 83%;
+}
+
+.data-super-box {
+    flex-grow: 1;
+}
+
+.livebox {
+    align-self: flex-start;
+    text-align: center;
+}
+
+.sidebox {
+    overflow-y: scroll;
 }
