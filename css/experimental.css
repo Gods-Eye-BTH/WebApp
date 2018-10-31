@@ -1,23 +1,13 @@
-/* .multibox {
-    height: 100%;
-    border: 1px solid red;
-    display: flex;
-    flex-grow: 1;
-    justify-content: center;
-}
-
-.data-super-box {
-    border: 1px solid limegreen;
-    display: flex;
-    overflow-y: scroll;
-    flex-direction: column;
-} */
 html, body {
     margin: 0;
     padding: 0;
+    height: 100%;
 }
 
 .browser {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
     font-family: 'Fira Sans', sans-serif;
     font-weight: 400;
 }
@@ -25,8 +15,8 @@ html, body {
 .navbar {
     display: flex;
     justify-content: space-between;
+    flex-grow: 0;
     align-items: center;
-    border-bottom: 1px solid;
     padding-right: 1rem;
     background: #2f3542;
     font-weight: 300;
@@ -90,6 +80,7 @@ html, body {
 
 .multibox {
     display: flex;
+    max-height: 83%;
 }
 
 .data-super-box {
@@ -97,10 +88,10 @@ html, body {
 }
 
 .livebox {
-    align-self: center;
+    align-self: flex-start;
     text-align: center;
 }
 
 .sidebox {
-    /* overflow-y: scroll; */
+    overflow-y: scroll;
 }
